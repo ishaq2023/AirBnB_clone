@@ -19,4 +19,4 @@ class Place(BaseModel):
 
     def __init__(self, *args, **kwargs):
         """initializes Place"""
-        super().__init__(*args, **kwargs)
+        super().__init__(*args, **kwarg=)
